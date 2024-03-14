@@ -1,14 +1,14 @@
 {
   "expo": {
-    "name": "ndp-note",
-    "slug": "ndp-note",
+    "name": "Notes",
+    "slug": "app-notes",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/my_favicon.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
+      "image": "./assets/my_splash.png",
+      "resizeMode": "cover",
       "backgroundColor": "#ffffff"
     },
     "updates": {
@@ -24,10 +24,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.rezaking.ndpnote"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/my_favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "4a0668cc-e1a1-4adf-9a7a-5ef9f2233f32"
+      }
     }
   }
 }
